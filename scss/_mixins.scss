@@ -1,0 +1,16 @@
+@mixin button($none, $black){
+	text-decoration: $none;
+	width: 5em;
+	position: relative;
+	left: 5em;
+	font-size: 500%;
+	top: 3em;
+	color: $black;
+}
+
+@mixin header{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
